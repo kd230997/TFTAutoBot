@@ -1,0 +1,20 @@
+{
+  "name": "TFTAutoBot",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "description": "It will autoplay TFT League of Legends",
+  "license": "MIT",
+  "private": true,
+  "main": "main.js",
+  "author": "Nguyen Khac Duy",
+  "dependencies": {
+    "jimp": "^0.22.10",
+    "node-gyp": "^10.0.1"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^28.0.0"
+  }
+}
